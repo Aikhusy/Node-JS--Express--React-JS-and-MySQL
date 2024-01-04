@@ -1,0 +1,26 @@
+GET http://localhost:5000/users
+
+###
+GET http://localhost:5000/users/3
+
+###
+POST  http://localhost:5000/createUsers
+
+Content-Type: application/json
+
+{
+    "name":"Syaikhul",
+    "email": "syaikhuls@gmail.com",
+    "gender": "male"
+}
+
+###
+PATCH   http://localhost:5000/createUsers
+
+Content-Type: application/json
+
+{
+    "name":"Syaikhuls",
+    "email": "syaikhuls@gmail.com",
+    "gender": "male"
+}
